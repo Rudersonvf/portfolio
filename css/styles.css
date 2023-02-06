@@ -324,7 +324,7 @@ body {
 
   .skill-box-card:hover {
     transition: 0.5s;
-    box-shadow: 0 3px 10px 0 var(--color-green);
+    box-shadow: 0 3px 10px 0 var(--color-pink);
   }
 
   .skill-box-card:hover img {
@@ -654,6 +654,9 @@ body {
   .skills-container h2 {
     font-size: 40px;
   }
+  .skills-div-container {
+    max-width: 650px;
+  }
 
   .projects-container h2 {
     font-size: 40px;
@@ -683,7 +686,7 @@ body {
 
 @media (min-width: 992px) {
   .skills-div-container {
-    width: 900px;
+    max-width: 900px;
   }
 
   .about-container .about-text-container p {
