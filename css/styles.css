@@ -293,6 +293,28 @@ body {
     color: var(--color-green);
   }
 
+  #about-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid var(--color-green);
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+  #about-btn a {
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--color-green);
+    
+  }
+
+  #about-btn:hover {
+    animation: btn-anim 1s infinite ease-in-out;
+  }
+
   .skills-container {
     text-align: center;
     width: 100%;
@@ -315,6 +337,7 @@ body {
   }
 
   .skill-box-card {
+    transition: 0.5s;
     width: 125px;
     height: 125px;
     background-color: var(--color-dark-grey);
@@ -342,6 +365,7 @@ body {
   }
 
   .skill-box-card img {
+    transition: 0.5s;
     width: 60px;
     height: 60px;
     background-color: transparent;
@@ -399,6 +423,7 @@ body {
   }
 
   #btn-projects {
+    transition: 0.5s;
     width: 80px;
     height: 35px;
     color: var(--color-green);
@@ -420,6 +445,7 @@ body {
   }
 
   .content-box {
+    transition: 0.5s;
     position: absolute;
     top: 0;
     width: 100%;
@@ -457,9 +483,9 @@ body {
   }
 
   .contentbox-container:hover .content-box {
+    transition: 0.5s;
     width: 100%;
     height: 75%;
-    transition: 0.5s;
   }
 
   .contact-container {
@@ -529,7 +555,8 @@ body {
     width: 100%;
     height: 50px;
     background-color: var(--color-dark-grey);
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   footer p {
@@ -538,10 +565,15 @@ body {
     line-height: 50px;
     cursor: default;
     transition: 0.3s;
+    margin: 0 20px;
   }
 
   footer p:hover {
     color: var(--color-cyan);
+  }
+
+  #code {
+    text-decoration: none;
   }
 }
 
